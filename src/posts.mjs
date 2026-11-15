@@ -6,7 +6,7 @@ export const POSTS = [
     tag: "Web Development",
     date: "2025-01-14",
     title: "Why Your Business Website Isn't Generating Leads (and How to Fix It)",
-    excerpt: "Plenty of businesses have a good-looking website that never produces a single enquiry. The problem is rarely the design — it's usually clarity, speed and trust.",
+    excerpt: "Plenty of businesses have a good-looking website that never produces a single inquiry. The problem is rarely the design — it's usually clarity, speed and trust.",
     content: `
 <p>Many business owners tell us the same story: they invested in a website, it looks professional, friends and family complimented it — and yet the phone doesn't ring. Months go by without a single form submission. It's frustrating, and it often leads to the conclusion that "websites don't work for our industry." In almost every case, that isn't true. The website simply wasn't built to do the one job that matters most: turning a visitor into a conversation.</p>
 <p>In this article we'll walk through the most common reasons a website fails to generate leads, and what you can do about each one. You don't need to rebuild everything from scratch. Often a handful of focused changes make a dramatic difference.</p>
@@ -28,13 +28,13 @@ export const POSTS = [
 <p>Add genuine client testimonials with names (with permission), show a few projects with a short description of the problem and the outcome, and include your phone number, email and social media links. Linking to an active Facebook or Instagram page reassures visitors that you're a living, working business rather than an abandoned site.</p>
 
 <h2>The contact form asks for too much</h2>
-<p>Every extra field you add to a form reduces the number of people who complete it. Asking for a company name, budget, job title, address and detailed project description before someone has even spoken to you feels like paperwork. For a first enquiry, name, a way to reply, and a short message are usually enough. You can gather the rest during the conversation.</p>
+<p>Every extra field you add to a form reduces the number of people who complete it. Asking for a company name, budget, job title, address and detailed project description before someone has even spoken to you feels like paperwork. For a first inquiry, name, a way to reply, and a short message are usually enough. You can gather the rest during the conversation.</p>
 
 <h2>You're not measuring anything</h2>
 <p>Finally, many businesses simply don't know what's happening on their website. How many people visit? Where do they come from? Which pages do they leave from? Without Google Analytics and Google Search Console set up, you're guessing. With them, you can see which pages attract visitors, which ones lose them, and whether your changes are working.</p>
 
 <h2>Where to start</h2>
-<p>If your website isn't producing leads, start with the highest-impact fixes: rewrite your homepage headline so it's crystal clear, add a visible call to action to every page, and test your site speed on a phone. Then add trust signals and simplify your forms. These changes are usually inexpensive, and together they can transform a silent website into a reliable source of enquiries.</p>
+<p>If your website isn't producing leads, start with the highest-impact fixes: rewrite your homepage headline so it's crystal clear, add a visible call to action to every page, and test your site speed on a phone. Then add trust signals and simplify your forms. These changes are usually inexpensive, and together they can transform a silent website into a reliable source of inquiries.</p>
 <p>If you'd like a second pair of eyes, our team is happy to review your website and give you an honest list of improvements — <a href="/contact">just get in touch</a>.</p>
 `,
   },
@@ -86,7 +86,7 @@ export const POSTS = [
 <p>The solution is batching. Instead of deciding what to post every day, you plan, create and schedule a whole month in one focused session. Here's the process we use with clients, adapted so you can do it yourself.</p>
 
 <h2>Step one: decide what you want social media to achieve</h2>
-<p>Before thinking about posts, be clear about the goal. Do you want more WhatsApp enquiries? More people visiting your shop? More bookings? Brand awareness in a new city? Your goal shapes everything else. A clinic aiming for appointment bookings will create very different content from a clothing brand launching a new collection.</p>
+<p>Before thinking about posts, be clear about the goal. Do you want more WhatsApp inquiries? More people visiting your shop? More bookings? Brand awareness in a new city? Your goal shapes everything else. A clinic aiming for appointment bookings will create very different content from a clothing brand launching a new collection.</p>
 <p>Write the goal down in one sentence. When you're unsure whether a post idea is worthwhile, check it against that sentence.</p>
 
 <h2>Step two: choose four content pillars</h2>
@@ -136,7 +136,7 @@ export const POSTS = [
 <p>This difference affects what success looks like, too. Google campaigns are often judged on cost per lead or cost per sale fairly quickly. Meta campaigns might need a little longer, because you're often warming people up over several touchpoints before they're ready to buy.</p>
 
 <h2>Which should you start with?</h2>
-<p>If people already search for your product or service and you can handle the cost per click, Google Search is usually the most direct route to enquiries. If your product is visual, impulse-friendly, new to the market, or you want to build a local brand, Meta is often the better starting point.</p>
+<p>If people already search for your product or service and you can handle the cost per click, Google Search is usually the most direct route to inquiries. If your product is visual, impulse-friendly, new to the market, or you want to build a local brand, Meta is often the better starting point.</p>
 <p>Many businesses ultimately use both together. A common pattern is to use Meta to build awareness and audiences, use Google to capture people when they're ready to search, and then use retargeting on both platforms to bring back visitors who didn't convert the first time.</p>
 
 <h2>The step most businesses skip: tracking</h2>
@@ -230,7 +230,7 @@ export const POSTS = [
     excerpt: "Google measures how fast and stable your website feels to real users. These measurements influence rankings — and, more importantly, whether visitors stay and buy.",
     content: `
 <p>You've probably experienced it: you tap a link, stare at a blank screen, and give up before the page loads. Or you go to tap a button and the page suddenly jumps, so you hit an advert instead. These everyday frustrations are exactly what Google's Core Web Vitals are designed to measure.</p>
-<p>Core Web Vitals are a set of metrics that describe how a real person experiences your website — how quickly it loads, how quickly it responds, and how stable it is while loading. They matter for search rankings, but their bigger impact is on your conversions. A faster, smoother website keeps more visitors, and more visitors means more enquiries and sales.</p>
+<p>Core Web Vitals are a set of metrics that describe how a real person experiences your website — how quickly it loads, how quickly it responds, and how stable it is while loading. They matter for search rankings, but their bigger impact is on your conversions. A faster, smoother website keeps more visitors, and more visitors means more inquiries and sales.</p>
 
 <h2>Largest Contentful Paint (LCP): how fast it loads</h2>
 <p>LCP measures how long it takes for the largest visible element on the screen — usually a hero image, a large heading or a video — to appear. In plain terms, it's how long a visitor waits before the page looks ready. Google considers an LCP of 2.5 seconds or less to be good.</p>
@@ -313,7 +313,7 @@ export const POSTS = [
 
 <h2>Lead capture and follow-up</h2>
 <p>One of the highest-value areas to automate is what happens after a potential customer gets in touch. Speed matters enormously; people often contact several businesses and choose the one that responds first. An automation can instantly send a friendly acknowledgement, add the lead to your CRM or spreadsheet, notify the right team member, and schedule a follow-up reminder if nobody has replied within a set time.</p>
-<p>This ensures no enquiry slips through the cracks — a common and costly problem when leads arrive through several channels like a website form, WhatsApp, Facebook and email.</p>
+<p>This ensures no inquiry slips through the cracks — a common and costly problem when leads arrive through several channels like a website form, WhatsApp, Facebook and email.</p>
 
 <h2>Appointments and reminders</h2>
 <p>For service businesses, missed appointments are lost revenue. Online booking tools can let customers choose their own time slot, automatically add it to your calendar, and send reminders a day and an hour before. This reduces back-and-forth messages and cuts no-shows significantly, without anyone needing to remember to send reminders manually.</p>

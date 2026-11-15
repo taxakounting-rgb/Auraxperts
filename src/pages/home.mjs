@@ -33,7 +33,7 @@ const tech = ["WordPress", "Shopify", "WooCommerce", "React", "Next.js", "Node.j
 // ---------- Hero: isometric "growth staircase" (generated SVG) ----------
 const STAGES = [
   { icon: "sparkle", label: "Brand", title: "Build a brand people remember", text: "Logo, identity and messaging that make your business look established and trustworthy from day one." },
-  { icon: "code", label: "Website", title: "Launch a website that converts", text: "A fast, mobile-first website that explains what you do and turns visitors into real enquiries." },
+  { icon: "code", label: "Website", title: "Launch a website that converts", text: "A fast, mobile-first website that explains what you do and turns visitors into real inquiries." },
   { icon: "search", label: "SEO", title: "Get found on Google", text: "Rank for the searches your customers already make — so they find you, not your competitors." },
   { icon: "target", label: "Social", title: "Reach the right audience", text: "Scroll-stopping content and targeted Meta & Google ads that bring the right people to your door." },
   { icon: "rocket", label: "Growth", title: "Grow with every month", text: "We track every lead and sale, double down on what works and keep your business climbing." },
@@ -103,7 +103,7 @@ const heroVisual = () => `
       <div class="growth-glow" aria-hidden="true"></div>
       <div class="toast" aria-hidden="true">
         <span class="toast-ic">${WA_SVG}</span>
-        <div><b>New enquiry <small>just now</small></b><span>"Hi! I found you on Google — can I get a quote?"</span></div>
+        <div><b>New inquiry <small>just now</small></b><span>"Hi! I found you on Google — can I get a quote?"</span></div>
       </div>
       ${growthSvg()}
       <div class="stage-card" id="stageCard">

@@ -185,9 +185,9 @@ if (form) {
     ].join("\n");
 
     if (via === "whatsapp") {
-      window.open(`https://wa.me/${form.dataset.wa}?text=${encodeURIComponent("New enquiry from the website\n\n" + text)}`, "_blank", "noopener");
+      window.open(`https://wa.me/${form.dataset.wa}?text=${encodeURIComponent("New inquiry from the website\n\n" + text)}`, "_blank", "noopener");
     } else {
-      const subject = `New enquiry from ${name.value.trim()}${services.length ? " — " + services[0] : ""}`;
+      const subject = `New inquiry from ${name.value.trim()}${services.length ? " — " + services[0] : ""}`;
       location.href = `mailto:${form.dataset.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
     }
   });

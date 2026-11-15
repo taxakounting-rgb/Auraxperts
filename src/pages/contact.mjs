@@ -64,7 +64,7 @@ export default {
         <button class="btn btn-primary btn-lg" type="submit" data-via="whatsapp">${WA_SVG} Send on WhatsApp</button>
         <button class="btn btn-outline btn-lg" type="submit" data-via="email">${icon("mail")} Send by Email</button>
       </div>
-      <p class="form-note">${icon("shield")} Your details are only used to reply to your enquiry.</p>
+      <p class="form-note">${icon("shield")} Your details are only used to reply to your inquiry.</p>
     </form>
   </div>
 </section>

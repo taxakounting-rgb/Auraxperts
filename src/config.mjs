@@ -22,13 +22,13 @@ export const SERVICES = [
   {
     id: "digital-marketing", icon: "search", name: "Digital Marketing & SEO", short: "SEO & Growth",
     blurb: "Get found on Google by the customers already searching for what you sell.",
-    long: "We combine technical SEO, keyword strategy and genuinely useful content so your business shows up when customers search — and turns that attention into enquiries. Every month you get a clear report showing rankings, traffic and leads, explained in plain language.",
+    long: "We combine technical SEO, keyword strategy and genuinely useful content so your business shows up when customers search — and turns that attention into inquiries. Every month you get a clear report showing rankings, traffic and leads, explained in plain language.",
     points: ["Technical & on-page SEO", "Keyword & competitor research", "Local SEO & Google Business Profile", "Content strategy & copywriting", "Monthly performance reports"],
   },
   {
     id: "social-media", icon: "share", name: "Social Media Marketing", short: "Social Media",
     blurb: "Scroll-stopping content that builds an audience and brings in messages.",
-    long: "From the content calendar to post design, captions, reels and community replies, we keep your brand active, consistent and recognisable on the platforms your customers actually use — and we track what drives real enquiries, not just likes.",
+    long: "From the content calendar to post design, captions, reels and community replies, we keep your brand active, consistent and recognisable on the platforms your customers actually use — and we track what drives real inquiries, not just likes.",
     points: ["Facebook, Instagram, TikTok & LinkedIn", "Monthly content calendars", "Post, carousel & reel design", "Community management", "Paid social campaigns"],
   },
   {
@@ -58,7 +58,7 @@ export const SERVICES = [
   {
     id: "paid-ads", icon: "target", name: "Paid Advertising (PPC)", short: "Paid Ads",
     blurb: "Google & Meta campaigns that are tracked, tested and accountable.",
-    long: "We set up proper conversion tracking first, then build, test and optimise campaigns on Google and Meta. Budgets go to the ads and audiences that produce enquiries and sales — and you see exactly where every rupee or dollar went.",
+    long: "We set up proper conversion tracking first, then build, test and optimise campaigns on Google and Meta. Budgets go to the ads and audiences that produce inquiries and sales — and you see exactly where every rupee or dollar went.",
     points: ["Google Search & Display Ads", "Meta (Facebook & Instagram) Ads", "Conversion tracking setup", "A/B testing of ads & landing pages", "Transparent ROI reporting"],
   },
   {

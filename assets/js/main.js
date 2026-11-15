@@ -49,7 +49,7 @@ if ("IntersectionObserver" in window && !reduceMotion) {
 // ----- 3D tilt on cards (desktop pointers only) -----
 if (finePointer && !reduceMotion) {
   document.querySelectorAll(".tilt").forEach((el) => {
-    const max = el.classList.contains("featured-post") ? 4 : 8;
+    const max = el.dataset.tilt ? +el.dataset.tilt : el.classList.contains("featured-post") ? 4 : 8;
     el.addEventListener("pointermove", (e) => {
       const r = el.getBoundingClientRect();
       const x = (e.clientX - r.left) / r.width - 0.5;
@@ -64,16 +64,44 @@ if (finePointer && !reduceMotion) {
       el.style.setProperty("--ry", "0deg");
     });
   });
+}
 
-  // subtle parallax on the hero scene
-  const scene = document.querySelector(".hero-scene");
-  if (scene) {
-    window.addEventListener("pointermove", (e) => {
-      const x = e.clientX / window.innerWidth - 0.5;
-      const y = e.clientY / window.innerHeight - 0.5;
-      scene.style.transform = `translate3d(${x * -18}px, ${y * -14}px, 0)`;
-    }, { passive: true });
-  }
+// ----- Hero growth staircase -----
+const stageCard = document.getElementById("stageCard");
+if (stageCard) {
+  const dots = [...stageCard.querySelectorAll(".stage-dot")];
+  const bars = [...document.querySelectorAll(".growth-svg .bar")];
+  const icons = [...stageCard.querySelectorAll("#stageIcon .si")];
+  const body = stageCard.querySelector(".stage-body");
+  const no = document.getElementById("stageNo");
+  const title = document.getElementById("stageTitle");
+  const text = document.getElementById("stageText");
+  const prog = stageCard.querySelector(".stage-progress");
+  const DUR = 4200;
+  let cur = 0, timer;
+
+  const show = (i) => {
+    cur = i;
+    bars.forEach((b, k) => b.classList.toggle("on", k === i));
+    dots.forEach((d, k) => { d.classList.toggle("on", k === i); d.setAttribute("aria-selected", String(k === i)); });
+    icons.forEach((ic, k) => ic.classList.toggle("on", k === i));
+    no.textContent = i + 1;
+    body.classList.add("fade");
+    setTimeout(() => {
+      title.textContent = dots[i].dataset.title;
+      text.textContent = dots[i].dataset.text;
+      body.classList.remove("fade");
+    }, 220);
+    if (!reduceMotion) {
+      prog.style.setProperty("--dur", DUR + "ms");
+      prog.classList.remove("running"); void prog.offsetWidth; prog.classList.add("running");
+    }
+  };
+  const loop = () => { clearInterval(timer); if (!reduceMotion) timer = setInterval(() => show((cur + 1) % dots.length), DUR); };
+
+  dots.forEach((d, i) => d.addEventListener("click", () => { show(i); loop(); }));
+  bars.forEach((b, i) => { b.style.cursor = "pointer"; b.addEventListener("click", () => { show(i); loop(); }); });
+  show(0); loop();
 }
 
 // ----- Generic chip filter -----
